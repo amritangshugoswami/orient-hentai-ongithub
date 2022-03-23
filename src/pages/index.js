@@ -65,17 +65,8 @@ function Home() {
         <div className="container">
           <h1 className="hero__title">{siteConfig.title}</h1>
           <p className="hero__subtitle">{siteConfig.tagline}</p>
-          <div className={styles.buttons}>
-            <Link
-              className={classnames(
-                'button button--outline button--secondary button--lg',
-                styles.getStarted,
-              )}
-              to={useBaseUrl('docs/doc1')}>
-              Subreddit Rules
-            </Link>
-          </div>
-<div className={styles.buttons}>
+
+         <div className={styles.buttons}>
             <Link
               className={classnames(
                 'button button--outline button--secondary button--lg',
@@ -95,6 +86,17 @@ function Home() {
               Watch Anime
             </Link>
           </div>
+ <div className={styles.buttons}>
+            <Link
+              className={classnames(
+                'button button--outline button--secondary button--lg',
+                styles.getStarted,
+              )}
+              to={useBaseUrl('docs/doc1')}>
+              Subreddit Rules
+            </Link>
+          </div>
+
         </div>
       </header>
       <main>
