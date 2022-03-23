@@ -72,7 +72,27 @@ function Home() {
                 styles.getStarted,
               )}
               to={useBaseUrl('docs/doc1')}>
-              Read Subreddit Rules
+              Subreddit Rules
+            </Link>
+          </div>
+<div className={styles.buttons}>
+            <Link
+              className={classnames(
+                'button button--outline button--secondary button--lg',
+                styles.getStarted,
+              )}
+              to={useBaseUrl('docs/doc1')}>
+              Read Manga
+            </Link>
+          </div>
+<div className={styles.buttons}>
+            <Link
+              className={classnames(
+                'button button--outline button--secondary button--lg',
+                styles.getStarted,
+              )}
+              to={useBaseUrl('docs/doc1')}>
+              Watch Anime
             </Link>
           </div>
         </div>
