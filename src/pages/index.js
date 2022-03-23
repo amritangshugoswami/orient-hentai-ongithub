@@ -86,7 +86,17 @@ function Home() {
               Watch Anime
             </Link>
           </div>
- <div className={styles.buttons}>
+<div className={styles.buttons}>
+            <Link
+              className={classnames(
+                'button button--outline button--secondary button--lg',
+                styles.getStarted,
+              )}
+              to={useBaseUrl('docs/doc1')}>
+              Subreddit
+            </Link>
+          </div>
+<div className={styles.buttons}>
             <Link
               className={classnames(
                 'button button--outline button--secondary button--lg',
@@ -94,6 +104,36 @@ function Home() {
               )}
               to={useBaseUrl('docs/doc1')}>
               Subreddit Rules
+            </Link>
+          </div>
+ <div className={styles.buttons}>
+            <Link
+              className={classnames(
+                'button button--outline button--secondary button--lg',
+                styles.getStarted,
+              )}
+              to={useBaseUrl('docs/doc1')}>
+              Discord Server
+            </Link>
+          </div>
+<div className={styles.buttons}>
+            <Link
+              className={classnames(
+                'button button--outline button--secondary button--lg',
+                styles.getStarted,
+              )}
+              to={useBaseUrl('docs/doc1')}>
+              Doujins
+            </Link>
+          </div>
+<div className={styles.buttons}>
+            <Link
+              className={classnames(
+                'button button--outline button--secondary button--lg',
+                styles.getStarted,
+              )}
+              to={useBaseUrl('docs/doc1')}>
+              NSFW Fan-art
             </Link>
           </div>
 
